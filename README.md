@@ -3,4 +3,4 @@ An RPG Game with light combat developed with sdl2 and c++
 
 This game was made by Jeannine Brokaw, Wenxin(Ariel) Dang, Gavin Grossman, and Omar Molina-Aguirre for William and Mary's Game Design class. It is an RPG which sets the background on the middle-century peroid campus of William and Mary. 
 
-Visit the link for [demo](https://www.youtube.com/watch?v=KPAxlFYJDnI): https://www.youtube.com/watch?v=KPAxlFYJDnI
+Visit the link for [Demo](https://www.youtube.com/watch?v=KPAxlFYJDnI)! : https://www.youtube.com/watch?v=KPAxlFYJDnI
