@@ -1,0 +1,88 @@
+<Root>
+    <Map
+            default_start="490, 25"
+            ground="../resource/maps/Dungeon_Floor_map_01_alternative.png"
+            canopy="../resource/maps/empty_canopy.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <!--NPC mapID="100"
+        /> -->
+
+        <Enemy type="SHOOTING"
+               size="36, 36"
+               loc="462, 550"
+               texture="enemy_shooter"
+        />
+        <Enemy type="SHOOTING"
+               size="36, 36"
+               loc="375, 380"
+               texture="enemy_shooter"
+
+        />
+        <Enemy type="CIRCUIT1"
+               size="36, 36"
+               loc="415, 550"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="462, 150"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="462, 300"
+               texture="enemy_circuit"
+        />
+
+        <Warp   
+                id="0"
+                size="960, 5"
+                loc="0, 715"
+                dest_map="../resource/map_data/Dungeon_map_02.xml"
+                dest_loc="925, 25"
+	/>
+
+<!--        <Enemy type="CHASING"-->
+<!--               size="30, 30"-->
+<!--               loc="150, 150"-->
+<!--        />-->
+
+<!--        <Enemy type="CIRCUIT"-->
+<!--               size="35, 35"-->
+<!--               loc="450, 250"-->
+<!--        />-->
+
+<!--        <Warp id="0"-->
+<!--              size="955, 5"-->
+<!--              loc="0, 0"-->
+<!--              dest_map="../resource/map_data/test_map_03.xml"-->
+<!--              dest_loc="0, 0"-->
+<!--        />-->
+<!--        <Warp id="1"-->
+<!--              size="955, 5"-->
+<!--              loc="0, 720"-->
+<!--              dest_map="../resource/map_data/test_map_03.xml"-->
+<!--              dest_loc="match, 10"-->
+<!--        />-->
+
+        <Wall
+                size="320, 720"
+                loc="0, 0"
+        />
+        <Wall
+                size="320, 720"
+                loc="640, 0"
+        />
+        <Wall
+                size="200, 30"
+                loc="320, 225"
+        />
+        <Wall
+                size="50, 30"
+                loc="590, 225"
+        />
+
+    </Map>
+</Root>
+

@@ -1,0 +1,42 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_10.png"
+            canopy="../resource/maps/overworld_canopy_10.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+        <!--		GATE CODE -->
+        <Warp id="N"
+              size="960, 5"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_06.xml"
+              dest_loc="match, 680"
+        />
+        <Warp id="E"
+              size="5, 720"
+              loc="955, 0"
+              dest_map="../resource/map_data/overworld_11.xml"
+              dest_loc="4, match"
+        />
+
+        <Warp id="S"
+              size="960, 5"
+              loc="0, 715"
+              dest_map="../resource/map_data/overworld_15.xml"
+              dest_loc="match, 30"
+        />
+
+        <!--    Wall code    -->
+        <Wall id="River North SCREW YOU JEANNINE, THIS IS A RIVER"
+              size="458, 11"
+              loc="515, 456"
+        />
+        <Wall id="River West"
+              size="26, 264"
+              loc="514, 456"
+        />
+
+    </Map>
+</Root>
+

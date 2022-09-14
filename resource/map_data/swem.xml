@@ -1,0 +1,118 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/interior_ground_below.png"
+            canopy="../resource/maps/interior_canopy_below.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+        <NPC name="librarian"
+             size="16, 32"
+             loc="470, 500"
+             texture="npc_professor_1"
+             itemDesired="12"
+             itemReward="14"
+             thankYouSpeech="Thank you so much!">
+
+            <npc_speech stage_index="0"
+                        sentence_index="0"
+                        dialogue = "Welcome to the Earl Gregg Swem Library!"
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="1"
+                        dialogue = "It's the vastest collection of tomes on this continent."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="2"
+                        dialogue = "Or at least it would be..."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="3"
+                        dialogue = "if people returned them promptly!!!"
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="4"
+                        dialogue = "Would you mind running a quick errand, dear?"
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="0"
+                        dialogue = "A philosophy textbook is overdue. Could you please retrieve it?"
+            />
+            <npc_speech stage_index="2"
+                        sentence_index="0"
+                        dialogue = "Thank you, dear!"
+            />
+            <npc_speech stage_index="2"
+                        sentence_index="1"
+                        dialogue = "Are you fighting the evil in the oldest building?"
+            />
+            <npc_speech stage_index="2"
+                        sentence_index="2"
+                        dialogue = "Take this suit of armor to aid you in your quest"
+            />
+            <npc_speech stage_index="2"
+                        sentence_index="3"
+                        dialogue = "Just be sure to return it when you are done."
+            />
+
+            <npc_speech stage_index="3"
+                        sentence_index="0"
+                        dialogue = "Did your mother never teach you to respect your elders???"
+            />
+
+            <player_options option_index="1"
+                            stage_index="0"
+                            jump_to_stage_index="1"
+                            prompt = "1: Yes (do it)"
+            />
+            <player_options option_index="2"
+                            stage_index="0"
+                            jump_to_stage_index="3"
+                            prompt = "2: No (do not)"
+            />
+            <player_options option_index="1"
+                            stage_index="1"
+                            jump_to_stage_index="2"
+                            prompt = "1: Give the textbook"
+                            givesReward = "true"
+            />
+
+        </NPC>
+
+<!--        ITEMS -->
+
+<!--        notes-->
+        <Item id="1"
+              size="16, 16"
+              loc="600, 550"
+              texture="item_notes"
+        />
+
+        <!--		GATE CODE		-->
+
+        <Warp id="4"
+              size="72, 5"
+              loc="444, 715"
+              dest_map="../resource/map_data/overworld_16.xml"
+              dest_loc="204, 236"
+        />
+
+
+
+
+        <!--		Walls		-->
+        <Wall id="0"
+              size="960, 22"
+              loc="0, 0"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="0, 714"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="516, 714"
+        />
+    </Map>
+</Root>
+

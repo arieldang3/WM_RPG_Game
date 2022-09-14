@@ -1,0 +1,89 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/interior_ground_below.png"
+            canopy="../resource/maps/interior_canopy_below.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <!--		NPC-->
+        <NPC name="jitters"
+             size="16, 16"
+             loc="336, 400"
+             texture="npc_jitters"
+             itemDesired="11"
+             itemReward="20"
+             thankYouSpeech="Thank you so much!">
+
+            <npc_speech stage_index="0"
+                        sentence_index="0"
+                        dialogue = "Oh. Oh dear."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="1"
+                        dialogue = "I allowed my friend to cut my hair, for a laugh."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="2"
+                        dialogue = "Now it's missing a huge portion of the middle!"
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="3"
+                        dialogue = "I should never have let him try my coffee first."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="4"
+                        dialogue = "It gives you the most dreadful jitters."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="5"
+                        dialogue = "And now my hair is jittered."
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="0"
+                        dialogue = "That's perfect, thank you!"
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="1"
+                        dialogue = "Here, you can have some of my coffee!"
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="2"
+                        dialogue = "(You can feel your reactions sharpening)"
+            />
+
+            <player_options option_index="1"
+                            stage_index="0"
+                            jump_to_stage_index="1"
+                            prompt = "1: Give him a wig."
+                            givesReward = "true"
+            />
+
+        </NPC>
+
+
+        <!--		GATE CODE		-->
+
+        <Warp id="4"
+              size="72, 5"
+              loc="444, 715"
+              dest_map="../resource/map_data/overworld_05.xml"
+              dest_loc="865, 636"
+        />
+
+
+        <!--		Walls		-->
+        <Wall id="0"
+              size="960, 22"
+              loc="0, 0"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="0, 714"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="516, 714"
+        />
+    </Map>
+</Root>
+

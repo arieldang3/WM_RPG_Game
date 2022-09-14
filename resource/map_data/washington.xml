@@ -1,0 +1,142 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/interior_ground_above.png"
+	canopy="../resource/maps/interior_canopy_above.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+<!--		</NPC>-->
+
+		<!--		GATE CODE		-->
+
+		<Warp id="4"
+			  size="16, 5"
+			  loc="273, 21"
+			  dest_map="../resource/map_data/overworld_13.xml"
+			  dest_loc="80, 543"
+		/>
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="960, 22"
+			  loc="0, 0"
+		/>
+		<Wall id="0"
+			  size="960, 6"
+			  loc="0, 714"
+		/>
+
+
+
+		<!--		Items		-->
+		<Item id="17"
+			  size="16, 16"
+			  loc="350, 280"
+			  texture="unset"
+		/>
+
+
+		<!--		NPCs		-->
+		<NPC name="Anthropology_Professor"
+			 size="16, 32"
+			 loc="186, 200"
+			 texture="npc_professor_2"
+			 itemDesired="-1"
+			 itemReward="10"
+			 thankYouSpeech="Thank you so much!">
+
+			<npc_speech stage_index="0"
+						sentence_index="0"
+						dialogue = "Good afternoon, and welcome to Washington Hall."
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="1"
+						dialogue = "Are you taking a class here?"
+			/>
+
+			<npc_speech stage_index="1"
+						sentence_index="0"
+						dialogue = "Well, I highly recommend it."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="1"
+						dialogue = "We study language and anthropology, both important subjects for any of us in this New World."
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="0"
+						dialogue = "Smart choice!"
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="0"
+						dialogue = "Hope you have a great time here!"
+			/>
+
+			<npc_speech stage_index="3"
+						sentence_index="0"
+						dialogue = "I have heard rumors ..."
+			/>
+
+			<npc_speech stage_index="3"
+						sentence_index="1"
+						dialogue = "the oddest thing is that almost every student tries to take a class in that building before they graduate."
+			/>
+
+			<npc_speech stage_index="3"
+						sentence_index="2"
+						dialogue = "Almost every student tries to swim in the Crim Dell."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="2"
+						dialogue = "Maybe there’s some danger-seeking drive for adventure innate to mankind."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="3"
+						dialogue = "(Scribbles some notes and forgets about you.)"
+			/>
+
+
+
+
+
+
+			<player_options option_index="1"
+							stage_index="0"
+							jump_to_stage_index="1"
+							prompt = "1: No"
+			/>
+			<player_options option_index="2"
+							stage_index="0"
+							jump_to_stage_index="2"
+							prompt = "2: Yes"
+			/>
+
+			<player_options option_index="1"
+							stage_index="1"
+							jump_to_stage_index="3"
+							prompt = "1: The dungeon?"
+			/>
+
+			<player_options option_index="1"
+							stage_index="2"
+							jump_to_stage_index="3"
+							prompt = "1: The dungeon?"
+			/>
+			<player_options option_index="1"
+							stage_index="3"
+							jump_to_stage_index="3"
+							prompt = "1: The dungeon?"
+			/>
+
+
+		</NPC>
+
+
+
+
+
+
+
+	</Map>
+</Root>
+		

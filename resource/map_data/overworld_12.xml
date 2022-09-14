@@ -1,0 +1,285 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/overworld_ground_12.png"
+	canopy="../resource/maps/overworld_canopy_12.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+		<!--		GATE CODE		-->
+		<Warp id="East"
+			  size="5, 720"
+			  loc="955, 0"
+			  dest_map="../resource/map_data/overworld_13.xml"
+			  dest_loc="30, match"
+		/>
+		<Warp id="West"
+			  size="5, 720"
+			  loc="0, 0"
+			  dest_map="../resource/map_data/overworld_11.xml"
+			  dest_loc="935, match"
+		/>
+		<Warp id="North"
+			  size="960, 5"
+			  loc="0, 0"
+			  dest_map="../resource/map_data/overworld_08.xml"
+			  dest_loc="match, 680"
+		/>
+		<Warp id="South"
+			  size="960, 5"
+			  loc="0, 715"
+			  dest_map="../resource/map_data/overworld_17.xml"
+			  dest_loc="match, 30"
+		/>
+		<Warp id="4"
+			  size="14, 31"
+			  loc="140, 472"
+			  dest_map="../resource/map_data/overworld_25.xml"
+			  dest_loc="632, 344"
+		/>
+
+		<Warp id="Sadler"
+			  size="18, 26"
+			  loc="27, 84"
+			  dest_map="../resource/map_data/sadler.xml"
+			  dest_loc="473, 677"
+		/>
+
+		<Warp id="4"
+			  size="17, 8"
+			  loc="684, 105"
+			  dest_map="../resource/map_data/Blair.xml"
+			  dest_loc="473, 677"
+		/>
+
+		<Warp id="McGlothlin"
+			  size="40, 8"
+			  loc="689, 568"
+			  dest_map="../resource/map_data/mcglothlin.xml"
+			  dest_loc="276, 48"
+		/>
+
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="16, 7"
+			  loc="152, 470"
+		/>
+		<Wall id="0"
+			  size="1, 7"
+			  loc="192, 470"
+		/>
+		<Wall id="0"
+			  size="4, 7"
+			  loc="164, 523"
+		/>
+		<Wall id="0"
+			  size="149, 47"
+			  loc="192, 484"
+		/>
+
+		<Wall id="0"
+			  size="73, 213"
+			  loc="76, 291"
+		/>
+		<Wall id="0"
+			  size="101, 142"
+			  loc="0, 362"
+		/>
+
+		<Wall id="Sadler"
+			  size="59, 108"
+			  loc="0, 0"
+		/>
+
+		<Wall id="McGlothlin"
+			  size="148, 96"
+			  loc="636, 570"
+		/>
+		<Wall id="Blair top"
+			  size="190, 47"
+			  loc="600, 56"
+		/>
+		<Wall id="Blair left"
+			  size="66, 66"
+			  loc="600, 56"
+		/>
+		<Wall id="Blair right"
+			  size="66, 66"
+			  loc="725, 56"
+		/>
+
+
+
+		<!--		NPCs		-->
+		<NPC name="Brick_loving_Senior"
+			 size="16, 16"
+			 loc="730, 160"
+			 texture="npc_student_0"
+			 itemDesired="3"
+			 itemReward="18"
+			 thankYouSpeech="Thank you so much!">
+
+			<npc_speech stage_index="0"
+						sentence_index="0"
+						dialogue = "I would care more for it than the average person-"
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="1"
+						dialogue = "-but theft is selfish-"
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="2"
+						dialogue = "-but what's one brick more or less."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="0"
+						dialogue = "oh, hello there!"
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="0"
+						dialogue = "I am a student."
+			/>
+
+			<npc_speech stage_index="3"
+						sentence_index="0"
+						dialogue = "I am graduating soon and would like a brick as a memento of campus."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="1"
+						dialogue = "But taking one would go against my moral philosophy."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="2"
+						dialogue = "So I am left with a quandary."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="3"
+						dialogue = "I was hoping that thinking about it here in the philosophy building, Blair, would help, but it hasn't so far."
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="0"
+						dialogue = "A brick?!"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="1"
+						dialogue = "For me?!"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="2"
+						dialogue = "As a gift?!!!"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="3"
+						dialogue = "Thank you, kind freshman!"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="4"
+						dialogue = "Please take this helmet as a token of my esteem."
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="5"
+						dialogue = "(He gives you a knight's helmet, a very good helmet.)"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="6"
+						dialogue = "I borrowed it from the library once, and never did return it. I wonder what the morality of that is ..."
+			/>
+
+
+
+			<player_options option_index="1"
+							stage_index="0"
+							jump_to_stage_index="1"
+							prompt = "1: . . . Hi?"
+			/>
+			<player_options option_index="2"
+							stage_index="0"
+							jump_to_stage_index="1"
+							prompt = "2: . . ."
+
+			/>
+
+			<player_options option_index="1"
+							stage_index="1"
+							jump_to_stage_index="2"
+							prompt = "1: You are?"
+			/>
+			<player_options option_index="2"
+							stage_index="1"
+							jump_to_stage_index="3"
+							prompt = "2: What are you talking about?"
+
+			/>
+
+			<player_options option_index="1"
+							stage_index="2"
+							jump_to_stage_index="3"
+							prompt = "1: What are you talking about?"
+			/>
+
+			<player_options option_index="1"
+							stage_index="3"
+							jump_to_stage_index="4"
+							prompt = "1: Give a brick"
+							givesReward = "true"
+			/>
+
+			<!--			<player_options option_index="1"-->
+			<!--							stage_index="2"-->
+			<!--							jump_to_stage_index="4"-->
+			<!--							prompt = "1: Give a brick"-->
+			<!--							givesReward = "true"-->
+			<!--			/>-->
+
+
+		</NPC>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="81, 79"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="81, 79"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="953, 116"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="652, 654"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="763, 668"
+			  texture="invisible"
+		/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</Map>
+</Root>
+		

@@ -1,0 +1,56 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/interior_ground_below.png"
+	canopy="../resource/maps/interior_canopy_below.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+		<!--		GATE CODE		-->
+
+		<Warp id="4"
+			  size="72, 5"
+			  loc="444, 715"
+			  dest_map="../resource/map_data/overworld_12.xml"
+			  dest_loc="684, 133"
+		/>
+
+
+
+
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="960, 22"
+			  loc="0, 0"
+		/>
+		<Wall id="0"
+			  size="444, 6"
+			  loc="0, 714"
+		/>
+		<Wall id="0"
+			  size="444, 6"
+			  loc="516, 714"
+		/>
+
+
+
+
+
+		<!--		Items		-->
+		<Item id="12"
+			  size="16, 16"
+			  loc="330, 480"
+			  texture="textbook"
+		/>
+
+
+
+
+
+
+
+
+	</Map>
+</Root>
+		

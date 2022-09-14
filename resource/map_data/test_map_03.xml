@@ -1,0 +1,66 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_12.png"
+            canopy="../resource/maps/empty_canopy.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+<!--        <NPC name="student"-->
+<!--             size="16, 16"-->
+<!--             loc="350, 350"-->
+<!--             texture="npc_test"-->
+<!--             dialogue="I guess this works"-->
+<!--             mapID = "3"-->
+<!--        />-->
+
+        <Enemy type="CHASING"
+           size="30, 30"
+           loc="850, 850"
+        />
+
+        <Item id="5"
+              size="16, 16"
+              loc="350, 350"
+              texture="item_slingshot"
+        />
+
+        <Item id="17"
+              size="16, 16"
+              loc="800, 350"
+              texture="item_rocks"
+        />
+
+        <Warp id="0"
+              size="5, 720"
+              loc="955, 0"
+              dest_map="../resource/map_data/test_map_01.xml"
+              dest_loc="10, match"
+        />
+        <Warp id="1"
+              size="5, 720"
+              loc="0, 0"
+              dest_map="../resource/map_data/test_map_01.xml"
+              dest_loc="935, match"
+        />
+
+        <Wall
+              size="65, 65"
+              loc="450, 265"
+        />
+        <Wall
+                size="92, 44"
+                loc="587, 256"
+        />
+        <Wall
+                size="59, 14"
+                loc="597, 242"
+        />
+
+<!--        <Enemy size ="30, 30"-->
+<!--               loc = "50, 50"-->
+<!--               texture="item_rocks"-->
+<!--        />-->
+
+    </Map>
+</Root>
+

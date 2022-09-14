@@ -1,0 +1,166 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/overworld_ground_13.png"
+	canopy="../resource/maps/overworld_canopy_13.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+<!--		TEMPORARY KEY PLACEMENT to avoid spoilers :) -->
+
+<!--				ITEM-->
+<!--		<Item id="22"-->
+<!--			  size="16, 16"-->
+<!--			  loc="572, 350"-->
+<!--			  texture="key"-->
+<!--		/>-->
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="220, 449"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="621, 457"
+			  texture="invisible"
+		/>
+
+		<Item id="3"
+			  size="6, 6"
+			  loc="175, 659"
+			  texture="invisible"
+		/>
+
+		<!--		GATE CODE		-->
+<!--		<Warp id="0"-->
+<!--			  size="5, 720"-->
+<!--			  loc="955, 0"-->
+<!--			  dest_map="../resource/map_data/test_map_03.xml"-->
+<!--			  dest_loc="30, match"-->
+<!--		/>-->
+		<Warp id="1"
+			  size="5, 720"
+			  loc="0, 0"
+			  dest_map="../resource/map_data/overworld_12.xml"
+			  dest_loc="935, match"
+		/>
+
+		<Warp id="4"
+			  size="17, 8"
+			  loc="69, 103"
+			  dest_map="../resource/map_data/chancellor.xml"
+			  dest_loc="473, 677"
+		/>
+		<Warp id="4"
+			  size="17, 8"
+			  loc="347, 123"
+			  dest_map="../resource/map_data/tucker.xml"
+			  dest_loc="473, 677"
+		/>
+		<Warp id="4"
+			  size="17, 8"
+			  loc="360, 558"
+			  dest_map="../resource/map_data/ewell.xml"
+			  dest_loc="276, 48"
+		/>
+		<Warp id="4"
+			  size="16, 8"
+			  loc="80, 578"
+			  dest_map="../resource/map_data/washington.xml"
+			  dest_loc="276, 48"
+		/>
+
+
+
+
+		<Warp id="E"
+			  size="5, 720"
+			  loc="955, 0"
+			  dest_map="../resource/map_data/overworld_14.xml"
+			  dest_loc="30, match"
+		/>
+		<Warp id="S"
+			  size="960, 5"
+			  loc="0, 715"
+			  dest_map="../resource/map_data/overworld_18.xml"
+			  dest_loc="match, 30"
+		/>
+		<Warp id="N"
+			  size="960, 5"
+			  loc="0, 0"
+			  dest_map="../resource/map_data/overworld_09.xml"
+			  dest_loc="match, 682"
+		/>
+
+		<!--        ENTRANCE TO DUNGEON-->
+		<Warp id="DUNGEON ENTRANCE"
+			  size="5, 55"
+			  loc="592, 269"
+			  dest_map="../resource/map_data/Dungeon_map_01.xml"
+			  dest_loc="490, 25"
+			  needsKey="true"
+		/>
+
+
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="46, 58"
+			  loc="0, 64"
+		/>
+		<Wall id="1"
+			  size="64, 58"
+			  loc="106, 64"
+		/>
+		<Wall id="2"
+			  size="60, 40"
+			  loc="46, 64"
+		/>
+		<Wall id="3"
+			  size="140, 74"
+			  loc="282, 50"
+		/>
+		<Wall id="4"
+			  size="186, 60"
+			  loc="0, 597"
+		/>
+		<Wall id="5"
+			  size="148, 55"
+			  loc="256, 601"
+		/>
+		<Wall id="6"
+			  size="73, 93"
+			  loc="331, 563"
+		/>
+		<Wall id="7"
+			  size="28, 12"
+			  loc="405, 600"
+		/>
+		<Wall id="8"
+			  size="155, 73"
+			  loc="593, 384"
+		/>
+		<Wall id="9"
+			  size="155, 73"
+			  loc="593, 256"
+		/>
+		<Wall id="10"
+			  size="66, 55"
+			  loc="682, 329"
+		/>
+
+
+
+
+
+
+
+
+
+
+
+	</Map>
+</Root>
+		

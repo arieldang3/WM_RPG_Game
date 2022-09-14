@@ -1,0 +1,60 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_5.png"
+            canopy="../resource/maps/overworld_canopy_5.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+        <!--		GATE CODE -->
+        <Warp id="North"
+              size="960, 5"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_02.xml"
+              dest_loc="match, 680"
+        />
+        <Warp id="E"
+              size="5, 720"
+              loc="955, 0"
+              dest_map="../resource/map_data/overworld_06.xml"
+              dest_loc="30, match"
+        />
+
+        <Warp id="Caf"
+              size="22, 76"
+              loc="836, 620"
+              dest_map="../resource/map_data/caf.xml"
+              dest_loc="473, 677"
+        />
+
+        <Warp id="Kaplan"
+              size="16, 8"
+              loc="904, 166"
+              dest_map="../resource/map_data/kaplan.xml"
+              dest_loc="473, 677"
+        />
+
+<!--        Kaplan -->
+        <Wall id="Kaplan rough box"
+              size="235, 165"
+              loc="732, 0"
+        />
+<!--        Caf upper edge-->
+        <Wall id="Caf rough bounding box"
+              size="211, 173"
+              loc="643, 573"
+        />
+
+        <!-- avoid double warp with 06 bottom border -->
+        <Wall id="0"
+              size="960, 5"
+              loc="0, 715"
+        />
+        <Wall id="left bound"
+              size="293, 720"
+              loc="0, 0"
+        />
+
+    </Map>
+</Root>
+

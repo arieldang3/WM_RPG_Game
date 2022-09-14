@@ -1,0 +1,32 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_18.png"
+            canopy="../resource/maps/overworld_canopy_18.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <!--		GATE CODE		-->
+
+
+        <Warp id="West"
+              size="5, 720"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_17.xml"
+              dest_loc="935, match"
+        />
+        <Warp id="North"
+              size="960, 5"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_13.xml"
+              dest_loc="match, 680"
+        />
+        <Wall id="East bound"
+              size="5, 960"
+              loc="955, 0"
+        />
+
+
+
+    </Map>
+</Root>
+

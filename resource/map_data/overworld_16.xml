@@ -1,0 +1,75 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_16.png"
+            canopy="../resource/maps/overworld_canopy_16.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+        <!--		GATE CODE -->
+        <Warp id="N"
+              size="960, 5"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_11.xml"
+              dest_loc="match, 658"
+        />
+        <Warp id="E"
+              size="5, 720"
+              loc="955, 0"
+              dest_map="../resource/map_data/overworld_17.xml"
+              dest_loc="30, match"
+        />
+
+<!--        <Warp id="S"-->
+<!--              size="960, 5"-->
+<!--              loc="0, 715"-->
+<!--              dest_map="../resource/map_data/overworld_22.xml"-->
+<!--              dest_loc="match, 30"-->
+<!--        />-->
+        <Warp id="W"
+              size="3, 720"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_15.xml"
+              dest_loc="935, match"
+        />
+        <Warp id="S"
+              size="960, 5"
+              loc="0, 715"
+              dest_map="../resource/map_data/overworld_22.xml"
+              dest_loc="match, 30"
+        />
+
+<!--        SWEM-->
+        <Wall id="Swem rough box"
+              size="477, 80"
+              loc="21, 95"
+        />
+        <Wall id="Swem rough box"
+              size="396, 189"
+              loc="21, 0"
+        />
+        <Wall id="Swem rough box"
+              size="174, 46"
+              loc="21, 179"
+        />
+        <Wall id="Swem rough box"
+              size="42, 46"
+              loc="224, 179"
+        />
+        <Warp id="Swem"
+              loc="202, 218"
+              size="17, 5"
+              dest_map="../resource/map_data/swem.xml"
+              dest_loc="473, 677"
+          />
+
+        <Item id="3"
+              size="6, 6"
+              loc="523, 266"
+              texture="invisible"
+        />
+
+
+    </Map>
+</Root>
+

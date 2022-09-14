@@ -1,0 +1,5 @@
+Debug/
+Profile/
+Release/
+cmake-debug-build/
+cmake-build-debug/

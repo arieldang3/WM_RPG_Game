@@ -1,0 +1,72 @@
+<Root>
+    <Map
+        default_start="955, 360"
+        ground="../resource/maps/Dungeon_Floor_map_03_alternative.png"
+        canopy="../resource/maps/empty_canopy.png"
+        colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <Warp   
+            id="0"
+            size="960, 5"
+            loc="0, 0"
+            dest_map="../resource/map_data/Dungeon_map_04.xml"
+            dest_loc="480, 705"
+	    />
+
+        <Enemy type="CIRCUIT2"
+               size="36, 36"
+               loc="820, 360"
+               speed="1.5"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT2"
+               size="36, 36"
+               loc="760, 360"
+               speed="1.75"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT2"
+               size="36, 36"
+               loc="700, 360"
+               speed="2"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="160, 50"
+               speed="2"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="160, 150"
+               speed="2"
+               texture="enemy_circuit"
+        />
+        <Enemy type="SHOOTING"
+               size="36, 36"
+               loc="500, 360"
+               texture="enemy_shooter"
+        />
+        <Enemy type="CHASING"
+               size="36, 36"
+               loc="20, 600"
+               texture="enemy_chaser"
+        />
+        <Enemy type="CHASING"
+               size="36, 36"
+               loc="60, 650"
+               texture="enemy_chaser"
+        />
+
+        <Wall
+            size="640, 240"
+            loc="320, 0"
+        />
+        <Wall
+            size="320, 240"
+            loc="640, 480"
+        />
+
+    </Map>
+</Root>

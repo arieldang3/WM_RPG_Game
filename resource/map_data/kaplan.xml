@@ -1,0 +1,94 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/interior_ground_below.png"
+            canopy="../resource/maps/interior_canopy_below.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <!--		NPC-->
+        <NPC name="strong_man"
+             size="20, 40"
+             loc="510, 450"
+             texture="npc_strong_man"
+             itemDesired="60000"
+             itemReward="21"
+             thankYouSpeech="Thank you so much!">
+
+            <npc_speech stage_index="0"
+                        sentence_index="0"
+                        dialogue = "Hello, young one."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="1"
+                        dialogue = "You have traveled far to reach here, building your body."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="2"
+                        dialogue = "Training both mind and body is essential."
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="3"
+                        dialogue = "After all, don't you wish to complete the triathlon?"
+            />
+            <npc_speech stage_index="0"
+                        sentence_index="4"
+                        dialogue = "Would you care to spend time to learn from me?"
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="0"
+                        dialogue = "(One minute passes)"
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="1"
+                        dialogue = "You took this training well, young one. Go forth in strength."
+            />
+            <npc_speech stage_index="1"
+                        sentence_index="2"
+                        dialogue = "(You can tell that your future attacks will be stronger)"
+            />
+            <npc_speech stage_index="2"
+                        sentence_index="0"
+                        dialogue = "(You thank him politely and go about your day)"
+            />
+
+            <player_options option_index="1"
+                            stage_index="0"
+                            jump_to_stage_index="1"
+                            prompt = "1: Yes"
+                            givesReward = "true"
+            />
+            <player_options option_index="2"
+                            stage_index="0"
+                            jump_to_stage_index="2"
+                            prompt = "2: No"
+            />
+
+        </NPC>
+
+
+        <!--		GATE CODE		-->
+
+        <Warp id="4"
+              size="72, 5"
+              loc="444, 715"
+              dest_map="../resource/map_data/overworld_05.xml"
+              dest_loc="857, 210"
+        />
+
+
+        <!--		Walls		-->
+        <Wall id="0"
+              size="960, 22"
+              loc="0, 0"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="0, 714"
+        />
+        <Wall id="0"
+              size="444, 6"
+              loc="516, 714"
+        />
+    </Map>
+</Root>
+

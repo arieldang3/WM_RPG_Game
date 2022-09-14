@@ -1,0 +1,88 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/interior_ground_above.png"
+	canopy="../resource/maps/interior_canopy_above.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+
+		<NPC name="brotherhood leader"
+			 size="16, 16"
+			 loc="300, 350"
+			 texture="npc_student_0"
+			 itemDesired="30000"
+			 itemReward="9"
+			 thankYouSpeech="Thank you so much!">
+
+			<npc_speech stage_index="0"
+						sentence_index="0"
+						dialogue = "A freshman! In our secret headquarters?!"
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="1"
+						dialogue = "You have certainly wandered far, and discovered the headquarters of the Brotherhood of Squirrel-slayers"
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="2"
+						dialogue = "Would you like to take the time to be initiated into our brotherhood?"
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="0"
+						dialogue = "(Thirty seconds pass)"
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="1"
+						dialogue = "(He hands you a blowgun). Here is your weapon."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="2"
+						dialogue = "Treat it with care and respect as one of the Brotherhood."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="3"
+						dialogue = "Now go forth and slay some squirrels!"
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="0"
+						dialogue = "Then depart from here, and return no more!"
+			/>
+
+			<player_options option_index="1"
+							stage_index="0"
+							jump_to_stage_index="1"
+							prompt = "1: Yes!"
+							givesReward = "true"
+			/>
+			<player_options option_index="2"
+							stage_index="0"
+							jump_to_stage_index="2"
+							prompt = "2: Um ... no?"
+			/>
+
+		</NPC>
+
+		<!--		GATE CODE		-->
+
+		<Warp id="4"
+			  size="16, 5"
+			  loc="273, 21"
+			  dest_map="../resource/map_data/overworld_03.xml"
+			  dest_loc="448, 379"
+		/>
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="960, 22"
+			  loc="0, 0"
+		/>
+		<Wall id="0"
+			  size="960, 6"
+			  loc="0, 714"
+		/>
+
+
+	</Map>
+</Root>
+		

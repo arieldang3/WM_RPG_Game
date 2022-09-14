@@ -1,0 +1,42 @@
+<Root>
+    <Map
+        default_start="480, 705"
+        ground="../resource/maps/Dungeon_Floor_map_04_alternative.png"
+        canopy="../resource/maps/empty_canopy.png"
+        colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="480, 460"
+               speed="3"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="480, 540"
+               speed="3.5"
+               texture="enemy_circuit"
+        />
+        <Enemy type="CIRCUIT3"
+               size="36, 36"
+               loc="480, 620"
+               speed="4"
+               texture="enemy_circuit"
+        />
+        <Enemy type="BOSS"
+               size="50, 50"
+               loc="480, 100"
+               texture="squirrel"
+        />
+
+        <Wall
+            size="320, 760"
+            loc="0, 0"
+        />
+        <Wall
+            size="320, 760"
+            loc="640, 0"
+        />
+
+    </Map>
+</Root>

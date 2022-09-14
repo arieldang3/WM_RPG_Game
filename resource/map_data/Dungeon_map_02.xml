@@ -1,0 +1,58 @@
+<Root>
+    <Map
+        default_start="925, 25"
+        ground="../resource/maps/Dungeon_Floor_map_02_alternative.png"
+        canopy="../resource/maps/empty_canopy.png"
+        colision="resource/textures/maps/test_map_01_collision.bmp">
+
+        <Warp   
+            id="0"
+            size="5, 720"
+            loc="0, 0"
+            dest_map="../resource/map_data/Dungeon_map_03.xml"
+            dest_loc="955, 360"
+	    />
+
+        <Enemy type="SHOOTING"
+               size="36, 36"
+               loc="850, 410"
+               texture="enemy_shooter"
+        />
+        <Enemy type="SHOOTING"
+               size="36, 36"
+               loc="550, 410"
+               texture="enemy_shooter"
+        />
+        <Enemy type="CHASING"
+               size="36, 36"
+               loc="25, 360"
+               texture="enemy_chaser"
+        />
+
+        <Wall
+                size="960, 240"
+                loc="0, 480"
+        />
+        <Wall
+                size="900, 8"
+                loc="0, 230"
+        />
+        <Wall
+                size="638, 230"
+                loc="0, 0"
+        />
+        <Wall
+                size="255, 8"
+                loc="643, 116"
+        />
+        <Wall
+                size="245, 8"
+                loc="715, 58"
+        />
+        <Wall
+                size="245, 8"
+                loc="715, 175"
+        />
+
+    </Map>
+</Root>

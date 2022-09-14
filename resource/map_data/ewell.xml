@@ -1,0 +1,137 @@
+<Root>
+	<Map
+	default_start="480, 360"
+	ground="../resource/maps/interior_ground_above.png"
+	canopy="../resource/maps/interior_canopy_above.png"
+	colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+<!--		NPC-->
+		<NPC name="music_student"
+			 size="16, 16"
+			 loc="300, 200"
+			 texture="npc_student_3"
+			 itemDesired="120000"
+			 itemReward="19"
+			 thankYouSpeech="Thank you so much!">
+
+			<npc_speech stage_index="0"
+						sentence_index="0"
+						dialogue = "Oh, my apologies, I didn't see you there."
+			/>
+			<npc_speech stage_index="0"
+						sentence_index="1"
+						dialogue = "I'm rehearsing for our concert soon."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="0"
+						dialogue = "Hummm..."
+			/>
+			<npc_speech stage_index="1"
+						sentence_index="1"
+						dialogue = "I have heard some strange things about one of the buildings in this area."
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="0"
+						dialogue = "Hummm..."
+			/>
+			<npc_speech stage_index="2"
+						sentence_index="1"
+						dialogue = "I heard he was headed towards one of the buildings in this area."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="0"
+						dialogue = "Sorry, I spend my listening abilities on pitch, not direction."
+			/>
+			<npc_speech stage_index="3"
+						sentence_index="1"
+						dialogue = "Would you like to stay and listen to the song I'm practicing?"
+			/>
+
+			<npc_speech stage_index="4"
+						sentence_index="0"
+						dialogue = "(It is a pretty song. Two minutes pass)"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="1"
+						dialogue = "Oh, you said you have to be somewhere by sundown?"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="2"
+						dialogue = "My apologies for wasting your time!"
+			/>
+			<npc_speech stage_index="4"
+						sentence_index="3"
+						dialogue = "Here, take these boots, they will help you run quickly"
+			/>
+			<npc_speech stage_index="5"
+						sentence_index="0"
+						dialogue = "Never mind then. Have a nice day!"
+			/>
+			<player_options option_index="1"
+							stage_index="0"
+							jump_to_stage_index="1"
+							prompt = "1: The dungeon?"
+			/>
+			<player_options option_index="2"
+							stage_index="0"
+							jump_to_stage_index="2"
+							prompt = "2: The president?"
+			/>
+			<player_options option_index="1"
+							stage_index="1"
+							jump_to_stage_index="3"
+							prompt = "1: Which building?"
+			/>
+			<player_options option_index="1"
+							stage_index="2"
+							jump_to_stage_index="3"
+							prompt = "1: Which building?"
+			/>
+			<player_options option_index="1"
+							stage_index="3"
+							jump_to_stage_index="4"
+							prompt = "1: Yes absolutely!"
+							givesReward = "true"
+			/>
+			<player_options option_index="2"
+							stage_index="3"
+							jump_to_stage_index="5"
+							prompt = "2: No thanks"
+			/>
+
+		</NPC>
+
+		<!--        ITEMS -->
+
+		<!--        rubber bands -->
+		<Item id="2"
+			  size="16, 16"
+			  loc="380, 200"
+			  texture="item_notes"
+		/>
+
+		<!--		GATE CODE		-->
+
+		<Warp id="4"
+			  size="16, 5"
+			  loc="273, 21"
+			  dest_map="../resource/map_data/overworld_13.xml"
+			  dest_loc="360, 521"
+		/>
+
+
+
+
+		<!--		Walls		-->
+		<Wall id="0"
+			  size="960, 22"
+			  loc="0, 0"
+		/>
+		<Wall id="0"
+			  size="960, 6"
+			  loc="0, 714"
+		/>
+	</Map>
+</Root>
+		

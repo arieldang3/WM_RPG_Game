@@ -1,0 +1,51 @@
+<Root>
+    <Map
+            default_start="480, 360"
+            ground="../resource/maps/overworld_ground_3.png"
+            canopy="../resource/maps/overworld_canopy_3.png"
+            colision="resource/textures/maps/test_map_01_collision.bmp">
+
+
+        <!--		GATE CODE -->
+<!--        <Warp id="N"-->
+<!--              size="960, 5"-->
+<!--              loc="0, 0"-->
+<!--              dest_map="../resource/map_data/overworld_00.xml"-->
+<!--              dest_loc="match, 680"-->
+<!--        />-->
+
+        <Warp id="S"
+              size="960, 5"
+              loc="0, 715"
+              dest_map="../resource/map_data/overworld_06.xml"
+              dest_loc="match, 30"
+        />
+        <Warp id="W"
+              size="5, 720"
+              loc="0, 0"
+              dest_map="../resource/map_data/overworld_02.xml"
+              dest_loc="935, match"
+        />
+
+<!--        Frat -->
+        <Wall id="Frat rough box"
+              size="85, 72"
+              loc="413, 422"
+        />
+
+        <Warp id="Frat"
+              size="10, 3"
+              loc="447, 417"
+              dest_map="../resource/map_data/frat.xml"
+              dest_loc="276, 48"
+        />
+
+<!--        Kaplan edge-->
+        <Wall id="Kaplan corner box"
+              size="100, 121"
+              loc="0, 599"
+        />
+
+    </Map>
+</Root>
+
