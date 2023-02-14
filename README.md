@@ -11,7 +11,7 @@ but got sucked into a strange space on the day before school started...
 
 People are wearing clothing from the last century...
 
-**Try to find out the secrete hidden in the history and find the way home!!!**
+**Try to find out the secret disguised in history and find the way home!!!**
 
 ## Contributors
 This game was made by Jeannine Brokaw, Wenxin(Ariel) Dang, Gavin Grossman, and Omar Molina-Aguirre for William and Mary's Game Design class. It is an RPG which sets the background on the middle-century peroid campus of William and Mary. 
