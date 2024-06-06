@@ -14,6 +14,6 @@ People are wearing clothing from the last century...
 **Try to find out the secret disguised in history and find the way home!!!**
 
 ## Contributors
-This game was made by Jeannine Brokaw, Wenxin(Ariel) Dang, Gavin Grossman, and Omar Molina-Aguirre for William and Mary's Game Design class. It is an RPG which sets the background on the middle-century peroid campus of William and Mary. 
+This game was made by Jeannine Brokaw, Wenxin(zk) Dang, Gavin Grossman, and Omar Molina-Aguirre. It is an RPG which sets the background on the middle-century peroid campus of William and Mary. 
 
 
